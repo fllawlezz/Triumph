@@ -1,0 +1,179 @@
+{
+  "donations" : {
+    "d1" : {
+      "amount" : 10,
+      "receiverId" : "orgId1",
+      "senderId" : "uid1",
+      "timestamp" : 1629694909124
+    },
+    "d2" : {
+      "amount" : 100,
+      "receiverId" : "orgId2",
+      "senderId" : "uid2",
+      "timestamp" : 1629694904313
+    },
+    "d3" : {
+      "amount" : 5,
+      "receiverId" : "orgId3",
+      "senderId" : "uid3",
+      "timestamp" : 1629694909623
+    },
+    "d4" : {
+      "amount" : 7.50,
+      "receiverId" : "orgId4",
+      "senderId" : "uid1",
+      "timestamp" : 1629694909143
+    },
+    "d5" : {
+      "amount" : 3,
+      "receiverId" : "orgId5",
+      "senderId" : "uid1",
+      "timestamp" : 1629694909132
+    },
+    "d6" : {
+      "amount" : -4,
+      "receiverId" : "orgId1",
+      "senderId" : "uid1",
+      "timestamp" : 1629694909196
+    },
+    "d7" : {
+      "amount" : 1000,
+      "receiverId" : "orgId1",
+      "senderId" : "uid1",
+      "timestamp" : 1629694909394
+    }
+  },
+  "myDonations" : {
+    "uid1" : {
+      "d1" : true,
+      "d4" : true,
+      "d5" : true,
+      "d6" : true,
+      "d7" : true
+    },
+    "uid2" : {
+      "d2" : true
+    },
+    "uid3" : {
+      "d3" : true
+    }
+  },
+  "users": {
+      "uid1": {
+          "name": "Leohnard Euler",
+          "username": "mathmagician"
+      },
+      "uid2": {
+          "name": "Alan Turing",
+          "username": "longtape"
+      },
+      "uid3": {
+          "name": "Albert Einstein",
+          "username": "eequalsmcsqured"
+      }
+  },
+  "organization": {
+      "orgId1": {
+          "name": "Big Dog Ranch Rescue",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=7b3a7c19-52bb-4701-b092-65f5ead504b9",
+          "amountGiven": 10000
+      },
+      "orgId2": {
+          "name": "Food Bank",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmTm6oGW4KTg7DUmYGnxMCINlYv72?alt=media&token=e8732138-1858-4f00-b74c-1cbd2de729f6",
+          "amountGiven": 100
+      },
+      "orgId3": {
+          "name": "Dental Services",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FnuGXnshhukdEK2D23OZX5C4kwmr2?alt=media&token=1b82746f-38b5-4b9e-a3e4-c664946781f7",
+          "amountGiven": 100000
+      },
+      "orgId4": {
+          "name": "Non Profit 1",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=904c21d8-23ea-4e55-af8d-a2cfd3e6fa27",
+          "amountGiven": 100
+      },
+      "orgId5": {
+          "name": "Dental Services",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=8d456984-ee6d-4d35-bc0f-2bea028e0f6a",
+          "amountGiven": 100000
+      },
+      
+      "orgId6": {
+          "name": "Mystery Donations",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=7b3a7c19-52bb-4701-b092-65f5ead504b9",
+          "amountGiven": 53
+      },
+      "orgId7": {
+          "name": "5k Fundraiser",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmTm6oGW4KTg7DUmYGnxMCINlYv72?alt=media&token=e8732138-1858-4f00-b74c-1cbd2de729f6",
+          "amountGiven": 1030
+      },
+      "orgId8": {
+          "name": "Mutual Fund",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FnuGXnshhukdEK2D23OZX5C4kwmr2?alt=media&token=1b82746f-38b5-4b9e-a3e4-c664946781f7",
+          "amountGiven": 1000500
+      },
+      "orgId9": {
+          "name": "Art Fundraiser",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=904c21d8-23ea-4e55-af8d-a2cfd3e6fa27",
+          "amountGiven": 10310
+      },
+      "orgId10": {
+          "name": "Free Dance Lessons",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=8d456984-ee6d-4d35-bc0f-2bea028e0f6a",
+          "amountGiven": 100000
+      },
+      "orgId11": {
+          "name": "Free Resume Review",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=7b3a7c19-52bb-4701-b092-65f5ead504b9",
+          "amountGiven": 1223
+      },
+      "orgId12": {
+          "name": "Music Lessons",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmTm6oGW4KTg7DUmYGnxMCINlYv72?alt=media&token=e8732138-1858-4f00-b74c-1cbd2de729f6",
+          "amountGiven": 0
+      },
+      "orgId13": {
+          "name": "Free Coffee",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FnuGXnshhukdEK2D23OZX5C4kwmr2?alt=media&token=1b82746f-38b5-4b9e-a3e4-c664946781f7",
+          "amountGiven": 100000
+      },
+      "orgId14": {
+          "name": "International Charity",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=904c21d8-23ea-4e55-af8d-a2cfd3e6fa27",
+          "amountGiven": 101
+      },
+      "orgId15": {
+          "name": "Dental Services",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=8d456984-ee6d-4d35-bc0f-2bea028e0f6a",
+          "amountGiven": 100000
+      },
+      
+      "orgId16": {
+          "name": "Mystery Donations",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=7b3a7c19-52bb-4701-b092-65f5ead504b9",
+          "amountGiven": 53
+      },
+      "orgId17": {
+          "name": "Habitat for Humanity",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmTm6oGW4KTg7DUmYGnxMCINlYv72?alt=media&token=e8732138-1858-4f00-b74c-1cbd2de729f6",
+          "amountGiven": 10000
+      },
+      "orgId18": {
+          "name": "Phyiscal Fitness Class",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FnuGXnshhukdEK2D23OZX5C4kwmr2?alt=media&token=1b82746f-38b5-4b9e-a3e4-c664946781f7",
+          "amountGiven": 0
+      },
+      "orgId19": {
+          "name": "Elementry School Fund",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=904c21d8-23ea-4e55-af8d-a2cfd3e6fa27",
+          "amountGiven": 10310.30
+      },
+      "orgId20": {
+          "name": "College Fund",
+          "profilePhotoURL": "https://firebasestorage.googleapis.com:443/v0/b/twitchbet-688c1.appspot.com/o/profile_photo%2FmZnxpWcTV0fhoj1654ChTQd8Tts2?alt=media&token=8d456984-ee6d-4d35-bc0f-2bea028e0f6a",
+          "amountGiven": 1000.40
+      }
+  }
+}
